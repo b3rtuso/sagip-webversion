@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Disaster Incident Reporting UI
 
@@ -9,3 +10,6 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# sagip-webversion
+>>>>>>> cd2dd5a4c19d983df457b38a45cc0734d019d24b
