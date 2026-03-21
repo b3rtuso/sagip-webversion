@@ -20,7 +20,7 @@ export function MobileProfile() {
             <User className="h-12 w-12 text-blue-900" />
           </div>
           <h1 className="text-white text-2xl font-bold mb-1">
-            Maria Santos
+           Berto Batumbakal
           </h1>
           <Badge className="bg-white text-blue-900 mb-2 font-semibold">
             Verified Resident
@@ -44,7 +44,7 @@ export function MobileProfile() {
                 </div>
                 <div>
                   <p className="text-xs text-gray-600">Email</p>
-                  <p className="text-sm font-medium text-gray-900">maria.santos@email.com</p>
+                  <p className="text-sm font-medium text-gray-900">berto.batumbakal@email.com</p>
                 </div>
               </div>
 
@@ -166,7 +166,7 @@ export function MobileProfile() {
         <Card className="bg-blue-50 border-blue-200 shadow-sm">
           <CardContent className="p-4 text-center">
             <Shield className="h-8 w-8 text-blue-900 mx-auto mb-2" />
-            <h3 className="font-semibold text-blue-900 mb-1">Sagip Balayan</h3>
+            <h3 className="font-semibold text-blue-900 mb-1">SendResQPls</h3>
             <p className="text-xs text-blue-700 mb-2">
               Disaster Reporting and Emergency Assistance
             </p>

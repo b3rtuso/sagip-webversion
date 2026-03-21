@@ -22,7 +22,7 @@ export function MobileSplash() {
       </div>
       
       <h1 className="text-4xl font-bold text-white text-center mb-3">
-        Sagip Balayan
+         SendResQPls
       </h1>
       
       <p className="text-blue-100 text-center text-lg mb-2">

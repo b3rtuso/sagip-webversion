@@ -22,31 +22,31 @@ export function MobileDashboard() {
     { 
       icon: Flame, 
       label: "Fire", 
-      color: "bg-red-500 hover:bg-red-600",
+      color: "bg-red-500 hover:bg-red-700",
       type: "fire"
     },
     { 
       icon: Droplets, 
       label: "Flood", 
-      color: "bg-blue-500 hover:bg-blue-600",
+      color: "bg-blue-500 hover:bg-blue-700",
       type: "flood"
     },
     { 
       icon: Car, 
       label: "Accident", 
-      color: "bg-orange-500 hover:bg-orange-600",
+      color: "bg-orange-500 hover:bg-orange-700",
       type: "accident"
     },
     { 
       icon: Mountain, 
       label: "Landslide", 
-      color: "bg-yellow-600 hover:bg-yellow-700",
+      color: "bg-yellow-500 hover:bg-yellow-700",
       type: "landslide"
     },
     { 
       icon: Heart, 
       label: "Medical", 
-      color: "bg-pink-500 hover:bg-pink-600",
+      color: "bg-pink-500 hover:bg-pink-700",
       type: "medical"
     },
     { 
@@ -88,7 +88,7 @@ export function MobileDashboard() {
               <Shield className="h-7 w-7 text-blue-900" />
             </div>
             <div>
-              <h1 className="text-white text-xl font-bold">Sagip Balayan</h1>
+              <h1 className="text-white text-xl font-bold"> SendResQPls</h1>
               <p className="text-blue-100 text-sm">Emergency Response</p>
             </div>
           </div>
@@ -101,7 +101,7 @@ export function MobileDashboard() {
         </div>
 
         <h2 className="text-white text-2xl font-bold mb-2">
-          Welcome Back!
+          Welcome Back, Berto Batumbakal!
         </h2>
         <p className="text-blue-100 text-sm">
           Stay safe and report emergencies quickly
@@ -113,7 +113,7 @@ export function MobileDashboard() {
         <Card className="bg-white shadow-lg border-0 mb-6">
           <CardContent className="p-5">
             <h3 className="text-gray-900 font-bold mb-4 flex items-center gap-2">
-              <AlertTriangle className="h-5 w-5 text-red-600" />
+              <AlertTriangle className="h-5 w-5 text-red-500" />
               Quick Emergency Report
             </h3>
             <div className="grid grid-cols-2 gap-3">
@@ -139,7 +139,7 @@ export function MobileDashboard() {
 
         {/* Main Report Button */}
         <Link to="/dashboard/report">
-          <Button className="w-full h-16 bg-red-600 hover:bg-red-700 text-white text-lg font-bold shadow-xl mb-6 rounded-2xl">
+          <Button className="w-full h-16 bg-red-500 hover:bg-red-700 text-white text-lg font-bold shadow-xl mb-6 rounded-2xl">
             <FileText className="mr-3 h-7 w-7" />
             Report New Incident
           </Button>
@@ -148,7 +148,7 @@ export function MobileDashboard() {
         {/* Quick Access Cards */}
         <div className="grid grid-cols-2 gap-3 mb-6">
           <Link to="/dashboard/tracking">
-            <Card className="bg-gradient-to-br from-blue-600 to-blue-500 border-0 shadow-md hover:shadow-lg transition-shadow">
+            <Card className="bg-gradient bg-blue-500 hover:bg-blue-700 border-0 shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="p-4 text-center">
                 <MapPin className="h-8 w-8 text-white mx-auto mb-2" />
                 <p className="text-white font-bold text-sm">Track Reports</p>
@@ -157,7 +157,7 @@ export function MobileDashboard() {
           </Link>
 
           <Link to="/dashboard/hotline">
-            <Card className="bg-gradient-to-br from-red-600 to-red-500 border-0 shadow-md hover:shadow-lg transition-shadow">
+            <Card className="bg-gradient bg-orange-500 hover:bg-orange-700 border-0 shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="p-4 text-center">
                 <Phone className="h-8 w-8 text-white mx-auto mb-2" />
                 <p className="text-white font-bold text-sm">Emergency Hotline</p>
@@ -171,7 +171,7 @@ export function MobileDashboard() {
           <CardContent className="p-5">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-gray-900 font-bold flex items-center gap-2">
-                <TrendingUp className="h-5 w-5 text-orange-600" />
+                <TrendingUp className="h-5 w-5 text-orange-500" />
                 Recent Alerts
               </h3>
               <Link to="/dashboard/alerts" className="text-blue-900 text-sm font-medium">

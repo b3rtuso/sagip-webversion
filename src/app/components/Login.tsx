@@ -36,7 +36,7 @@ export function Login() {
           <div className="inline-flex items-center justify-center h-20 w-20 rounded-full bg-white mb-4 shadow-lg">
             <Shield className="h-12 w-12 text-blue-900" />
           </div>
-          <h1 className="text-4xl font-bold text-white mb-2">Sagip Balayan</h1>
+          <h1 className="text-4xl font-bold text-white mb-2">SendResQPls</h1>
           <p className="text-blue-200">Disaster Incident Reporting and Response Management System</p>
           <div className="mt-2 text-sm text-blue-300">
             Municipal Disaster Risk Reduction and Management Office

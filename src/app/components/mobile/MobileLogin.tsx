@@ -29,7 +29,7 @@ export function MobileLogin() {
           <Shield className="h-16 w-16 text-blue-900" />
         </div>
         <h1 className="text-3xl font-bold text-white mb-2">
-          Sagip Balayan
+         SendResQPls
         </h1>
         <p className="text-blue-100 text-sm">
           Disaster Reporting and Emergency Assistance
@@ -79,9 +79,9 @@ export function MobileLogin() {
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
                 >
                   {showPassword ? (
-                    <EyeOff className="h-5 w-5" />
-                  ) : (
                     <Eye className="h-5 w-5" />
+                  ) : (
+                    <EyeOff className="h-5 w-5" />
                   )}
                 </button>
               </div>
@@ -114,7 +114,18 @@ export function MobileLogin() {
               Forgot password?
             </a>
           </div>
-
+          {/*Create Account */}
+          <div className="mt-4 text-center">
+            <p className="text-sm text-gray-600">
+              Don't have an account?{" "}
+              <button
+                onClick={() => navigate("/signup")}
+                className="text-blue-900 hover:underline"
+              >
+                Sign Up
+              </button>
+            </p>
+          </div>
           <div className="mt-8 pt-6 border-t text-center">
             <p className="text-xs text-gray-500">
               MDRRMO - Municipal Disaster Risk Reduction and Management Office

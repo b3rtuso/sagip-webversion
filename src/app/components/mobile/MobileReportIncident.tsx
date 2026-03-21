@@ -318,7 +318,7 @@ export function MobileReportIncident() {
           {/* Photo Upload */}
           <Card className="bg-white shadow-sm border-0">
             <CardContent className="p-4">
-              <h3 className="text-gray-900 font-bold mb-4">Photo Evidence (Optional)</h3>
+              <h3 className="text-gray-900 font-bold mb-4">Photo Evidence</h3>
               
               <div className="space-y-3">
                 <div className="grid grid-cols-2 gap-3">

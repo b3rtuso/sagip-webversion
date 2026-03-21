@@ -2,11 +2,11 @@ import { Incident, ResponseTeam, Resource } from "../types/incident";
 
 export const barangays = [
   "Poblacion",
-  "Alangilan",
+  "Langgangan",
   "Calan",
   "Caloocan",
   "Carenahan",
-  "Cawit",
+  "Samtol",
   "Dao",
   "Dilao",
   "Durungao",
@@ -21,10 +21,10 @@ export const barangays = [
   "Sampaga",
   "San Juan",
   "San Roque",
-  "Santa Ana",
-  "Santo Niño",
-  "Subic Ibaba",
-  "Subic Ilaya",
+  "San Piro",
+  "Navotas",
+  "Baha",
+  "Baclaran",
   "Sukol"
 ];
 
@@ -40,7 +40,7 @@ export const mockIncidents: Incident[] = [
       coordinates: { lat: 14.5995, lng: 120.9842 }
     },
     reportedBy: {
-      name: "Maria Santos",
+      name: " Berto Batumbakal",
       contact: "0917-123-4567"
     },
     reportedAt: "2026-03-03T08:30:00",

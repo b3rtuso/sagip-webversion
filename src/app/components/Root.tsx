@@ -44,7 +44,7 @@ export function Root() {
                   <Shield className="h-6 w-6 text-blue-900" />
                 </div>
                 <div>
-                  <h1 className="text-lg font-bold">Sagip Balayan</h1>
+                  <h1 className="text-lg font-bold"> SendResQPls</h1>
                   <p className="text-xs text-blue-200">MDRRMO System</p>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export function Root() {
           <div className="flex items-center justify-between">
             <div>
               <h2 className="text-2xl font-semibold text-blue-900">
-                Sagip Balayan - MDRRMO
+                SendResQPls - MDRRMO
               </h2>
               <p className="text-sm text-gray-500">Disaster Incident Reporting and Response Management System</p>
             </div>

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "<<<<<<< HEAD",
+  "keywords": [],
   "homepage": "https://github.com/b3rtuso/sagip-webversion#readme",
   "bugs": {
     "url": "https://github.com/b3rtuso/sagip-webversion/issues"
@@ -99,6 +100,5 @@
     "overrides": {
       "vite": "6.3.5"
     }
-  },
-  "keywords": []
+  }
 }

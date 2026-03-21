@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import { MobileRoot } from "./components/mobile/MobileRoot";
 import { MobileLogin } from "./components/mobile/MobileLogin";
+import { MobileSignUp } from "./components/mobile/MobileSignUp";
 import { MobileDashboard } from "./components/mobile/MobileDashboard";
 import { MobileReportIncident } from "./components/mobile/MobileReportIncident";
 import { MobileIncidentTracking } from "./components/mobile/MobileIncidentTracking";
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
   {
     path: "/login",
     Component: MobileLogin,
+  },
+  {
+    path: "/signup",
+    Component: MobileSignUp,
   },
   {
     path: "/dashboard",
